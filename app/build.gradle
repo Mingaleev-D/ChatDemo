@@ -2,6 +2,7 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-kapt'
+    id 'kotlin-android-extensions'
 }
 
 android {
@@ -46,7 +47,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
 
     //MaterialDrawer
-    implementation "com.mikepenz:materialdrawer:9.0.1"
+    implementation "com.mikepenz:materialdrawer:7.0.0"
 
 //required support lib modules
 //    implementation "androidx.appcompat:appcompat:${versions.appcompat}"
@@ -56,10 +57,10 @@ dependencies {
 //    implementation "androidx.constraintlayout:constraintlayout:${versions.constraintLayout}"
 
 // Add for NavController support
-    implementation "com.mikepenz:materialdrawer-nav:9.0.1"
+    implementation "com.mikepenz:materialdrawer-nav:7.0.0"
 
 // Add for Android-Iconics support
-    implementation "com.mikepenz:materialdrawer-iconics:9.0.1"
+   // implementation "com.mikepenz:materialdrawer-iconics:8.4.5"
     // Lifecycle
     def lifecycleVersion = "2.5.1"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion"
