@@ -14,4 +14,8 @@
     <string name="questions_about_telegram">Questions about telegram</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="online">online</string>
+    <string name="test_number_phone">+7999999999</string>
+    <string name="change_name">Change name</string>
+    <string name="exit">Exit</string>
 </resources>
